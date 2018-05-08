@@ -43,6 +43,9 @@ public class Car2
         // ----------------------------------------------------
         // Please write your code after this line
         
+        //Getting rotation in Radians
+        
+        double rotationInRadians = (rotationInDegrees * Math.PI) / 180;
         
         
         
@@ -56,11 +59,16 @@ public class Car2
         // For detailed instructions, please refer to Module 3 Example: Car 2 Graded Problem Task 3B
         // ----------------------------------------------------
         // Please write your code after this line
+        
+        
+        //declaring double variables dist x and y
+        
+        
+        //Assigning correct values to distx and y
+        double distX=dist*Math.cos((rotationInRadians));
+        double distY=dist*Math.sin((rotationInRadians));
+        
 
-        
-        
-        
-        
         
         
         // ----------------------------------------------------
