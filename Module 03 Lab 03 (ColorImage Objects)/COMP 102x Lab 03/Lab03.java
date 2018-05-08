@@ -24,6 +24,17 @@ public class Lab03
         // Please write your code after this line
         
         
+          ColorImage imageA = new ColorImage();
+          ColorImage imageB = new ColorImage();
+          
+        //Setting up canvas according to image height and width
+        Canvas canvas = new Canvas(imageA.getWidth()*2, imageA.getHeight());
+        
+        //  load image to canvas
+        canvas.add(imageA,0,0);
+        canvas.add(imageB,imageA.getWidth(),0);
+        
+        
         
         
     }
