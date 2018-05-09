@@ -86,7 +86,28 @@ return result;
     {
         // write your code after this line
 
+        int currentType =this.getType();
+        ColorImage choiceImage;
         
+        switch(currentType){
+           case 0:
+            choiceImage = new ColorImage("rock.png");
+            break;
+           
+           case 1:
+            choiceImage = new ColorImage("paper.png");
+            break;
+           
+           default:
+            choiceImage = new ColorImage("scissors.png");
+            break;
+            
+       
+}
+        choiceImage.setX(x);
+       choiceImage.setY(y);
+       choiceImage.setRotation(rotation);
+       canvas.add(choiceImage);
         
         
         
