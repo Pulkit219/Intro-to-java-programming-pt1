@@ -16,8 +16,10 @@ public class Computer
     public void makeChoice()
     {
         // write your code after this line
-
-
+        
+         Random randomObject = new Random();
+         this.choice = new Choice(randomObject.nextInt(3));
+         
         
         
         
