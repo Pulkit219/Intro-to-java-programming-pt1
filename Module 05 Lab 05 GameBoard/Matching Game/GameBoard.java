@@ -89,10 +89,14 @@ public class GameBoard
     {       
         // Please write your code after this line
         
-
+for(int i = 0; i < MatchingGame.NUMBER_OF_CARDS; i++){
+            if(!cards[i].isFacingUp()) return false;
+        }
+        
+return true;
         
         
-        return false; // this line should be modified or removed after finish implementing the method.
+        // this line should be modified or removed after finish implementing the method.
     }
     
     /**
